@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Life: A User’s Manual — Suggestions, Corrections, and Acknowledgments</title>
+  <meta name="description" content="Submit suggestions and corrections for Life: A User’s Manual. Adopted contributions are acknowledged here." />
+  <style>
+    :root{
+      --bg:#0b0c10;
+      --card:#12131a;
+      --text:#f2f3f5;
+      --muted:#b7bbc3;
+      --link:#7aa2ff;
+      --border:rgba(255,255,255,.10);
+      --ok:#7ee787;
+      --warn:#ffd479;
+    }
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font:16px/1.55 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;}
+    a{color:var(--link);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{max-width:880px;margin:0 auto;padding:28px 18px 54px}
+    header{padding:18px 0 8px;border-bottom:1px solid var(--border);margin-bottom:18px}
+    h1{font-size:1.75rem;line-height:1.2;margin:.2rem 0 .35rem}
+    .subtitle{color:var(--muted);margin:0 0 .8rem}
+    .pill{display:inline-block;font-size:.85rem;color:var(--muted);border:1px solid var(--border);padding:.25rem .55rem;border-radius:999px;margin:.35rem .35rem 0 0}
+    .grid{display:grid;grid-template-columns:1fr;gap:14px;margin-top:16px}
+    @media (min-width:860px){.grid{grid-template-columns:1.1fr .9fr}}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:16px}
+    h2{font-size:1.15rem;margin:0 0 .55rem}
+    h3{font-size:1rem;margin:1rem 0 .35rem;color:var(--text)}
+    p{margin:.35rem 0 .75rem}
+    ul{margin:.35rem 0 .9rem;padding-left:1.15rem}
+    li{margin:.25rem 0}
+    .note{color:var(--muted);font-size:.95rem}
+    .label{font-weight:600}
+    .kbd{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.93em;background:rgba(255,255,255,.08);padding:.1rem .35rem;border-radius:6px;border:1px solid var(--border)}
+    .status{display:inline-flex;align-items:center;gap:.4rem;font-size:.9rem;color:var(--muted);margin-top:.15rem}
+    .dot{width:.55rem;height:.55rem;border-radius:50%;background:var(--ok)}
+    .dot.warn{background:var(--warn)}
+    footer{margin-top:26px;color:var(--muted);font-size:.9rem;border-top:1px solid var(--border);padding-top:14px}
+    .small{font-size:.9rem;color:var(--muted)}
+    .table{width:100%;border-collapse:separate;border-spacing:0;margin:.5rem 0 0}
+    .table th,.table td{padding:.55rem .6rem;border-top:1px solid var(--border);vertical-align:top}
+    .table th{color:var(--muted);font-weight:600;text-align:left}
+    .table tr:first-child th,.table tr:first-child td{border-top:none}
+    .badge{display:inline-block;padding:.12rem .45rem;border-radius:999px;border:1px solid var(--border);color:var(--muted);font-size:.8rem;margin-left:.35rem}
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Life: A User’s Manual</h1>
+      <p class="subtitle">Suggestions, Corrections, Errata, and Acknowledgments</p>
+      <span class="pill">Reader feedback welcome</span>
+      <span class="pill">Adopted contributions credited</span>
+      <span class="pill">Updated periodically</span>
+    </header>
+
+    <div class="grid">
+      <section class="card">
+        <h2>How to submit a correction or suggestion</h2>
+        <p>
+          I welcome thoughtful corrections (typos, factual fixes, citation updates) and constructive suggestions
+          that improve clarity, accuracy, or usefulness. If your input is adopted in a revision or later edition,
+          I will acknowledge it on this page.
+        </p>
+
+        <h3>What to include</h3>
+        <ul>
+          <li><span class="label">Location:</span> chapter/section + a short quote or page number (if print).</li>
+          <li><span class="label">Issue type:</span> typo, clarity, factual, citation, formatting, other.</li>
+          <li><span class="label">Proposed fix:</span> the corrected wording or a concrete recommendation.</li>
+          <li><span class="label">Rationale:</span> one sentence explaining why the change improves the text.</li>
+        </ul>
+
+        <h3>Preferred submission method</h3>
+        <p class="note">
+          Email works best for most readers. If you share sources (links/DOIs), please include them inline.
+        </p>
+
+        <p>
+          <span class="label">Email:</span> <span class="kbd">YOUR_EMAIL_HERE</span><br/>
+          <span class="label">Subject line:</span> <span class="kbd">Life: A User’s Manual — Correction/Suggestion</span>
+        </p>
+
+        <p class="small">
+          By submitting feedback, you grant permission to incorporate it (edited for style/consistency) in future revisions.
+          Acknowledgment is at the author’s discretion and may be abbreviated for space or privacy.
+        </p>
+      </section>
+
+      <aside class="card">
+        <h2>Release status</h2>
+        <div class="status"><span class="dot warn"></span><span><strong>Current status:</strong> First edition (initial release)</span></div>
+        <p class="note">
+          This page is the canonical place for adopted corrections and errata. Minor issues may be batched into periodic updates.
+        </p>
+
+        <h3>Change policy</h3>
+        <ul>
+          <li>Typos and obvious errors: fixed in the next update batch.</li>
+          <li>Substantive changes: incorporated in a revision / later edition.</li>
+          <li>Disagreements in interpretation: may be noted, but not always changed.</li>
+        </ul>
+
+        <h3>Quick links</h3>
+        <ul>
+          <li><a href="#errata">Errata</a></li>
+          <li><a href="#ack">Acknowledgments</a></li>
+          <li><a href="#submit">Submission details</a></li>
+        </ul>
+      </aside>
+    </div>
+
+    <section id="errata" class="card" style="margin-top:14px">
+      <h2>Errata <span class="badge">start here after launch</span></h2>
+      <p class="note">Post-publication corrections will appear here. Each item includes the location and the adopted fix.</p>
+
+      <table class="table" aria-label="Errata table">
+        <tr>
+          <th style="width:16%">Date</th>
+          <th style="width:22%">Location</th>
+          <th>Correction</th>
+        </tr>
+        <tr>
+          <td class="note">—</td>
+          <td class="note">—</td>
+          <td class="note">No errata posted yet.</td>
+        </tr>
+      </table>
+    </section>
+
+    <section id="ack" class="card" style="margin-top:14px">
+      <h2>Acknowledgments for adopted suggestions</h2>
+      <p class="note">
+        I am grateful to readers who take the time to improve the work. Names are listed only with permission;
+        otherwise I may acknowledge “a reader” or initials.
+      </p>
+
+      <table class="table" aria-label="Acknowledgments table">
+        <tr>
+          <th style="width:16%">Date</th>
+          <th style="width:24%">Contributor</th>
+          <th>Contribution adopted</th>
+        </tr>
+        <tr>
+          <td class="note">—</td>
+          <td class="note">—</td>
+          <td class="note">No acknowledgments posted yet.</td>
+        </tr>
+      </table>
+    </section>
+
+    <section id="submit" class="card" style="margin-top:14px">
+      <h2>Submission template (copy/paste)</h2>
+      <p class="note">Copy this into an email and fill in the fields.</p>
+      <pre style="white-space:pre-wrap;background:rgba(255,255,255,.06);border:1px solid var(--border);border-radius:12px;padding:12px;margin:0;color:var(--text)">
+Book: Life: A User’s Manual
+Edition/Format: (Kindle / Paperback / Hardcover)
+Location: (Chapter, section, page if print, or quote)
+Issue type: (typo / clarity / factual / citation / formatting / other)
+Current text: "..."
+Suggested change: "..."
+Rationale: ...
+Source (if relevant): (URL/DOI/book title)
+Permission to acknowledge by name: (Yes / No; preferred name if yes)
+      </pre>
+    </section>
+
+    <footer>
+      <div>© <span id="year"></span> Rakesh M. Verma. All rights reserved.</div>
+      <div class="small">Last updated: <span class="kbd">YYYY-MM-DD</span></div>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
